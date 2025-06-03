@@ -104,9 +104,3 @@ pytest tests/test_transform.py
 - `pytest` – Testing
 
 ---
-
-## 👨‍💻 Kontributor
-
-- Hizbullah Najihan – [@najikh2002](https://github.com/najikh2002)
-
----
