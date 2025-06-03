@@ -1,0 +1,20 @@
+# Setup
+1. python3.11 -m venv env
+2. source env/bin/activate       # (Mac/Linux)
+   .\env\Scripts\activate        # (Windows)
+3. pip install -r requirements.txt
+
+# Test
+pytest tests                    # jalankan semua test
+atau
+pytest pytests/[nama_fungsi]   # jalankan test fungsi tertentu
+
+# Run
+python main.py
+
+# URL
+https://docs.google.com/spreadsheets/d/1QOs6Kmldyw51hohHzIPivpG6d8uNubS_3u0ZRRZTW2g/edit?usp=sharing
+
+# Catatan
+- Pastikan PostgreSQL sudah berjalan jika ingin menghubungkan ke database.
+- Pastikan API Google Sheets sudah dikonfigurasi dengan benar jika menggunakan integrasi Google Sheets.
