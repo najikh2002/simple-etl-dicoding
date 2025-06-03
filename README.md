@@ -1,29 +1,9 @@
-Berikut versi `README.md` lengkap dengan **badge**, **logo**, dan **preview CSV**:
-
----
-
-```markdown
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Dicoding-logo-text-blue.png/320px-Dicoding-logo-text-blue.png" width="250" alt="Dicoding">
-</p>
-
-<h1 align="center">🧵 Simple ETL Pipeline – Fashion Studio Dicoding</h1>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.11-blue?logo=python">
-  <img src="https://img.shields.io/badge/License-MIT-green.svg">
-  <img src="https://img.shields.io/github/workflow/status/najikh2002/simple-etl-dicoding/CI">
-</p>
-
----
-
-## 📌 Deskripsi
-
 Proyek ini adalah pipeline ETL sederhana untuk mengolah data produk dari [Fashion Studio Dicoding](https://fashion-studio.dicoding.dev). Pipeline ini mencakup proses _Extract_, _Transform_, dan _Load_ ke berbagai tujuan seperti CSV, Google Sheets, dan PostgreSQL.
 
 ---
 
 ## 📁 Struktur Proyek
+
 ```
 
 submission-pemda/
@@ -42,7 +22,7 @@ submission-pemda/
 ├── test_transform.py
 └── test_load.py
 
-````
+```
 
 ---
 
@@ -51,10 +31,11 @@ submission-pemda/
 ### 1. Buat virtual environment
 
 **Mac/Linux**:
+
 ```bash
 python3.11 -m venv env
 source env/bin/activate
-````
+```
 
 **Windows**:
 
